@@ -6,7 +6,7 @@ RUN apk update \
 # Install php 7
 RUN apk add php7 php7-fpm php7-json php7-zlib php7-xml php7-pdo php7-phar php7-openssl \
   php7-pdo_mysql php7-mysqli php7-mysqlnd php7-session \
-  php7-mcrypt php7-curl php7-opcache php7-ctype  \
+  php7-mcrypt php7-curl php7-opcache php7-ctype  php7-xdebug \
   php7-bcmath php7-dom php7-xmlreader php7-mbstring \
   --update-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/testing/ --allow-untrusted
 
