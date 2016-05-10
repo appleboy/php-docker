@@ -1,5 +1,7 @@
 FROM alpine:3.3
 
+MAINTAINER Bo-Yi Wu <appleboy.tw@gmail.com>
+
 RUN apk update \
   && apk add mysql-client ca-certificates
 
