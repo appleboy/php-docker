@@ -1,17 +1,17 @@
-# php-docker
+# php5.7-docker
 
 PHP Dockerfile using Alpine Linux.
 
 ## Package lists
 
-* php
+* php5.7
 * mysql-client
 * composer
 
 ## Build Images
 
 ```
-$ docker build -t php -f Dockerfile .
+$ docker build -t php5.7 -f Dockerfile .
 ```
 
 ## Pull from docker hub
