@@ -3,7 +3,7 @@ FROM alpine:3.3
 MAINTAINER Bo-Yi Wu <appleboy.tw@gmail.com>
 
 RUN apk update \
-  && apk add mysql-client ca-certificates
+  && apk add bash mysql-client ca-certificates
 
 # Install php 7
 RUN apk add php7 php7-fpm php7-json php7-zlib php7-xml php7-pdo php7-phar php7-openssl \
