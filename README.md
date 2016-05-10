@@ -2,6 +2,11 @@
 
 PHP 5.7 Dockerfile using Alpine Linux.
 
+## Package lists
+
+* php7
+* mysql-client
+
 ## Build Images
 
 ```
